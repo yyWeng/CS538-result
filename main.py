@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import json
 import os
 
+TIMESTAMPS = [60, 3600, 21600, 86400, 604800, 31622400]
 
 def load_datapoints(dir: str):
     """
@@ -59,8 +60,8 @@ def percent_plot(data: dict, title: str):
 
     offset = 0.125
     width = 0.25
-    ticks = [60, 3600, 21600, 86400, 604800, 31622400]
-    x = np.arange(len(ticks))
+    
+    x = np.arange(len(TIMESTAMPS))
     fig, ax = plt.subplots(layout='constrained')
     fig.set_figwidth(10)
 
@@ -73,44 +74,53 @@ def percent_plot(data: dict, title: str):
     ax.set_xlabel('Time (seconds)')
     ax.set_ylabel('Percentage')
     ax.legend(loc='best')
-    ax.set_xticks(range(len(ticks)))
-    ax.set_xticklabels(ticks)
+    ax.set_xticks(range(len(TIMESTAMPS)))
+    ax.set_xticklabels(TIMESTAMPS)
 
     plt.show()
 
 
-if __name__ == "__main__":
+def load_common_sites(old_dir: str, new_dir: str):
+    """
+    Load common sites from a JSON file.
+    """
     # Load data points from the specified directory
-    datapoints = load_datapoints('data')
-    new_datapoints = load_datapoints('log')
+    datapoints = load_datapoints(old_dir)
+    new_datapoints = load_datapoints(new_dir)
 
-    print(f"Loaded {len(datapoints)} data points from 'data' directory.")
-    print(f"Loaded {len(new_datapoints)} data points from 'new_data' directory.")
-    same_sites = intersect(datapoints, new_datapoints)
-    print(f"Found {len(same_sites)} same sites.")
+    return intersect(datapoints, new_datapoints)
 
-
+def main():
+    same_sites = load_common_sites('data', 'log')
+    old_improves, new_improves = [], []
     for site, data in same_sites.items():
         print(f"Site: {site}")
         old, new = data
-        # print(old)
-        updated = {}
+
         for key in old.keys():
-            print(f"Key: {key}")
+            # print(f"Key: {key}")
             boarderline_old = datapoint_to_array(old[key]['ClassicLoadTester'])
             boarderline_new = datapoint_to_array(new[key]['ClassicLoadTester'])
-            boarderline = np.mean(np.stack((boarderline_old, boarderline_new)), axis=0)
+            # boarderline = np.mean(np.stack((boarderline_old, boarderline_new)), axis=0)
             baseline = datapoint_to_array(old[key]['CacheV2LoadTester'])
             improve = datapoint_to_array(new[key]['CacheV2LoadTester'])
 
             baseline_percent = (boarderline_old - baseline) / boarderline_old * 100
             improve_percent = (boarderline_new - improve) / boarderline_new * 100
-            percent_plot({
-                'baseline': baseline_percent,
-                'improve': improve_percent
-            }, f"{site} {key}")
+            # percent_plot({
+            #     'baseline': baseline_percent,
+            #     'improve': improve_percent
+            # }, f"{site} {key}")
+            old_improves.append(baseline_percent)
+            new_improves.append(improve_percent)
+    # Plot the average of all sites
+    o = np.mean(np.stack(old_improves), axis=0)
+    n = np.mean(np.stack(new_improves), axis=0)
+    percent_plot({
+        'baseline': o,
+        'improve': n
+    }, "Average of all sites")
 
-    # for site, data in same_sites.items():
-    #     print(f"Site: {site}")
-        # print(f"Data points from 'data': {data[0]}")
-        # print(f"Data points from 'new_data': {data[1]}")
+
+if __name__ == "__main__":
+    main()
