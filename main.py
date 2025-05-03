@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import json
 import os
 
-TIMESTAMPS = [60, 3600, 21600, 86400, 604800, 31622400]
+# TIMESTAMPS = [60, 3600, 21600, 86400, 604800, 31622400] # 1 min, 1 hour, 12 hours, 1 day, 1 week, 1 year
+TIMESTAMPS = [60, 43200, 604800, 31622400] # 1 min, 12 hours, 7 days, 1 year
 
 def load_datapoints(dir: str):
     """
@@ -57,7 +58,6 @@ def percent_plot(data: dict, title: str):
     """
     Plot the data points as percentages.
     """
-
     offset = 0.125
     width = 0.25
     
@@ -90,8 +90,20 @@ def load_common_sites(old_dir: str, new_dir: str):
 
     return intersect(datapoints, new_datapoints)
 
+def load_common_sites_from_json(old_file: str, new_file: str):
+    """
+    Load common sites from a JSON file.
+    """
+    # Load data points from the specified directory
+    with open(old_file, 'r') as f:
+        datapoints = json.load(f)
+    with open(new_file, 'r') as f:
+        new_datapoints = json.load(f)
+
+    return intersect(datapoints, new_datapoints)
+
 def main():
-    same_sites = load_common_sites('data', 'log')
+    same_sites = load_common_sites_from_json('aggregated-cloudlab-old.json', 'aggregated-cloudlab-new.json')
     old_improves, new_improves = [], []
     for site, data in same_sites.items():
         print(f"Site: {site}")

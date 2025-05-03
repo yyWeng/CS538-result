@@ -1,0 +1,2522 @@
+{
+    "healthline": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 19687,
+                "43200": 10242,
+                "604800": 10246,
+                "31622400": 10306
+            },
+            "CacheV2LoadTester": {
+                "60": 10237,
+                "43200": 10245,
+                "604800": 19671,
+                "31622400": 10267
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 10186,
+                "43200": 19613,
+                "604800": 739,
+                "31622400": 776
+            },
+            "CacheV2LoadTester": {
+                "60": 790,
+                "43200": 10139,
+                "604800": 10224,
+                "31622400": 830
+            }
+        }
+    },
+    "mercadolivre.com": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1815,
+                "43200": 1858,
+                "604800": 1810,
+                "31622400": 1815
+            },
+            "CacheV2LoadTester": {
+                "60": 1879,
+                "43200": 1895,
+                "604800": 1869,
+                "31622400": 1882
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1061,
+                "43200": 1099,
+                "604800": 1182,
+                "31622400": 1117
+            },
+            "CacheV2LoadTester": {
+                "60": 1178,
+                "43200": 1243,
+                "604800": 1207,
+                "31622400": 1193
+            }
+        }
+    },
+    "en.wikipedia": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 842,
+                "43200": 10191,
+                "604800": 809,
+                "31622400": 10453
+            },
+            "CacheV2LoadTester": {
+                "60": 19509,
+                "43200": 10197,
+                "604800": 19544,
+                "31622400": 21904
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 772,
+                "43200": 10083,
+                "604800": 19490,
+                "31622400": 10110
+            },
+            "CacheV2LoadTester": {
+                "60": 19457,
+                "43200": 10116,
+                "604800": 10084,
+                "31622400": 10176
+            }
+        }
+    },
+    "accuweather": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 10395,
+                "43200": 1014,
+                "604800": 1009,
+                "31622400": 10492
+            },
+            "CacheV2LoadTester": {
+                "60": 929,
+                "43200": 938,
+                "604800": 150538,
+                "31622400": 10559
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 859,
+                "43200": 19603,
+                "604800": 10213,
+                "31622400": 10219
+            },
+            "CacheV2LoadTester": {
+                "60": 10277,
+                "43200": 10291,
+                "604800": 10153,
+                "31622400": 911
+            }
+        }
+    },
+    "investing": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2841,
+                "43200": 115062,
+                "604800": 2748,
+                "31622400": 2703
+            },
+            "CacheV2LoadTester": {
+                "60": 77920,
+                "43200": 2856,
+                "604800": 58964,
+                "31622400": 68560
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2605,
+                "43200": 2888,
+                "604800": 2672,
+                "31622400": 68129
+            },
+            "CacheV2LoadTester": {
+                "60": 2758,
+                "43200": 68216,
+                "604800": 2927,
+                "31622400": 2809
+            }
+        }
+    },
+    "hotstar": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1091,
+                "43200": 1087,
+                "604800": 1089,
+                "31622400": 1116
+            },
+            "CacheV2LoadTester": {
+                "60": 1094,
+                "43200": 1087,
+                "604800": 1097,
+                "31622400": 1089
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 931,
+                "43200": 933,
+                "604800": 931,
+                "31622400": 931
+            },
+            "CacheV2LoadTester": {
+                "60": 963,
+                "43200": 938,
+                "604800": 925,
+                "31622400": 932
+            }
+        }
+    },
+    "spotify": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 797,
+                "43200": 910,
+                "604800": 778,
+                "31622400": 800
+            },
+            "CacheV2LoadTester": {
+                "60": 847,
+                "43200": 1047,
+                "604800": 788,
+                "31622400": 801
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 10292,
+                "43200": 700,
+                "604800": 686,
+                "31622400": 732
+            },
+            "CacheV2LoadTester": {
+                "60": 697,
+                "43200": 697,
+                "604800": 797,
+                "31622400": 708
+            }
+        }
+    },
+    "trendyol": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 651,
+                "43200": 656,
+                "604800": 655,
+                "31622400": 647
+            },
+            "CacheV2LoadTester": {
+                "60": 656,
+                "43200": 654,
+                "604800": 659,
+                "31622400": 653
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 487,
+                "43200": 501,
+                "604800": 480,
+                "31622400": 478
+            },
+            "CacheV2LoadTester": {
+                "60": 475,
+                "43200": 482,
+                "604800": 475,
+                "31622400": 510
+            }
+        }
+    },
+    "poki": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 40310,
+                "43200": 2829,
+                "604800": 2795,
+                "31622400": 2834
+            },
+            "CacheV2LoadTester": {
+                "60": 3110,
+                "43200": 2925,
+                "604800": 21800,
+                "31622400": 12540
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1938,
+                "43200": 1959,
+                "604800": 1906,
+                "31622400": 2022
+            },
+            "CacheV2LoadTester": {
+                "60": 2376,
+                "43200": 2101,
+                "604800": 2282,
+                "31622400": 2179
+            }
+        }
+    },
+    "finance.yahoo": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 29246,
+                "43200": 10416,
+                "604800": 10487,
+                "31622400": 1244
+            },
+            "CacheV2LoadTester": {
+                "60": 1177,
+                "43200": 1076,
+                "604800": 1110,
+                "31622400": 29399
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1002,
+                "43200": 1037,
+                "604800": 1000,
+                "31622400": 10618
+            },
+            "CacheV2LoadTester": {
+                "60": 10357,
+                "43200": 10333,
+                "604800": 1001,
+                "31622400": 19807
+            }
+        }
+    },
+    "ndtv": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2044,
+                "43200": 1731,
+                "604800": 1667,
+                "31622400": 1729
+            },
+            "CacheV2LoadTester": {
+                "60": 1510,
+                "43200": 1448,
+                "604800": 1526,
+                "31622400": 1474
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1377,
+                "43200": 1454,
+                "604800": 1466,
+                "31622400": 1425
+            },
+            "CacheV2LoadTester": {
+                "60": 1393,
+                "43200": 1527,
+                "604800": 1463,
+                "31622400": 1430
+            }
+        }
+    },
+    "pl.wikipedia": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 798,
+                "43200": 24731,
+                "604800": 855,
+                "31622400": 794
+            },
+            "CacheV2LoadTester": {
+                "60": 867,
+                "43200": 12792,
+                "604800": 847,
+                "31622400": 864
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 722,
+                "43200": 771,
+                "604800": 744,
+                "31622400": 12644
+            },
+            "CacheV2LoadTester": {
+                "60": 763,
+                "43200": 742,
+                "604800": 807,
+                "31622400": 12621
+            }
+        }
+    },
+    "amazon.co": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2157,
+                "43200": 2224,
+                "604800": 2166,
+                "31622400": 123946
+            },
+            "CacheV2LoadTester": {
+                "60": 123917,
+                "43200": 2087,
+                "604800": 124001,
+                "31622400": 2321
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1471,
+                "43200": 1498,
+                "604800": 1288,
+                "31622400": 1338
+            },
+            "CacheV2LoadTester": {
+                "60": 1429,
+                "43200": 1641,
+                "604800": 132922,
+                "31622400": 1652
+            }
+        }
+    },
+    "gov": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 647,
+                "43200": 651,
+                "604800": 19417,
+                "31622400": 643
+            },
+            "CacheV2LoadTester": {
+                "60": 651,
+                "43200": 650,
+                "604800": 19399,
+                "31622400": 649
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 352,
+                "43200": 361,
+                "604800": 364,
+                "31622400": 359
+            },
+            "CacheV2LoadTester": {
+                "60": 371,
+                "43200": 388,
+                "604800": 19117,
+                "31622400": 359
+            }
+        }
+    },
+    "booking": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 3895,
+                "43200": 4084,
+                "604800": 4154,
+                "31622400": 60337
+            },
+            "CacheV2LoadTester": {
+                "60": 3811,
+                "43200": 3763,
+                "604800": 59910,
+                "31622400": 4208
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 3133,
+                "43200": 124803,
+                "604800": 3274,
+                "31622400": 115575
+            },
+            "CacheV2LoadTester": {
+                "60": 3233,
+                "43200": 3108,
+                "604800": 3309,
+                "31622400": 59584
+            }
+        }
+    },
+    "mail.yahoo": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 503,
+                "43200": 503,
+                "604800": 502,
+                "31622400": 502
+            },
+            "CacheV2LoadTester": {
+                "60": 509,
+                "43200": 513,
+                "604800": 508,
+                "31622400": 510
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 282,
+                "43200": 289,
+                "604800": 283,
+                "31622400": 313
+            },
+            "CacheV2LoadTester": {
+                "60": 280,
+                "43200": 310,
+                "604800": 304,
+                "31622400": 308
+            }
+        }
+    },
+    "google": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 920,
+                "43200": 936,
+                "604800": 932,
+                "31622400": 925
+            },
+            "CacheV2LoadTester": {
+                "60": 21456,
+                "43200": 931,
+                "604800": 928,
+                "31622400": 11211
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 634,
+                "43200": 632,
+                "604800": 630,
+                "31622400": 638
+            },
+            "CacheV2LoadTester": {
+                "60": 10968,
+                "43200": 642,
+                "604800": 631,
+                "31622400": 10960
+            }
+        }
+    },
+    "uol.com": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 18978,
+                "43200": 9607,
+                "604800": 28353,
+                "31622400": 9606
+            },
+            "CacheV2LoadTester": {
+                "60": 232,
+                "43200": 232,
+                "604800": 230,
+                "31622400": 234
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 9485,
+                "43200": 9486,
+                "604800": 118,
+                "31622400": 9488
+            },
+            "CacheV2LoadTester": {
+                "60": 129,
+                "43200": 122,
+                "604800": 121,
+                "31622400": 115
+            }
+        }
+    },
+    "es.wikipedia": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 804,
+                "43200": 829,
+                "604800": 12552,
+                "31622400": 12727
+            },
+            "CacheV2LoadTester": {
+                "60": 12535,
+                "43200": 801,
+                "604800": 12747,
+                "31622400": 12698
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 750,
+                "43200": 731,
+                "604800": 12806,
+                "31622400": 12791
+            },
+            "CacheV2LoadTester": {
+                "60": 823,
+                "43200": 691,
+                "604800": 24231,
+                "31622400": 12455
+            }
+        }
+    },
+    "support.google": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 10452,
+                "43200": 19970,
+                "604800": 10483,
+                "31622400": 19965
+            },
+            "CacheV2LoadTester": {
+                "60": 945,
+                "43200": 104469,
+                "604800": 10433,
+                "31622400": 956
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 122803,
+                "43200": 698,
+                "604800": 696,
+                "31622400": 679
+            },
+            "CacheV2LoadTester": {
+                "60": 10185,
+                "43200": 722,
+                "604800": 723,
+                "31622400": 721
+            }
+        }
+    },
+    "amazon": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 716,
+                "43200": 799,
+                "604800": 824,
+                "31622400": 897
+            },
+            "CacheV2LoadTester": {
+                "60": 809,
+                "43200": 804,
+                "604800": 706,
+                "31622400": 865
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 521,
+                "43200": 615,
+                "604800": 715,
+                "31622400": 773
+            },
+            "CacheV2LoadTester": {
+                "60": 513,
+                "43200": 538,
+                "604800": 530,
+                "31622400": 738
+            }
+        }
+    },
+    "sattamatkadpboss": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 150223,
+                "43200": 150222,
+                "604800": 432,
+                "31622400": 300016
+            },
+            "CacheV2LoadTester": {
+                "60": 430,
+                "43200": 150222,
+                "604800": 150222,
+                "31622400": 430
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 249,
+                "43200": 249,
+                "604800": 247,
+                "31622400": 252
+            },
+            "CacheV2LoadTester": {
+                "60": 251,
+                "43200": 300016,
+                "604800": 248,
+                "31622400": 249
+            }
+        }
+    },
+    "x": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 4022,
+                "43200": 300016,
+                "604800": 300017,
+                "31622400": 300017
+            },
+            "CacheV2LoadTester": {
+                "60": 300016,
+                "43200": 300016,
+                "604800": 151955,
+                "31622400": 300016
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 152139,
+                "43200": 151788,
+                "604800": 151799,
+                "31622400": 273803
+            },
+            "CacheV2LoadTester": {
+                "60": 151854,
+                "43200": 300016,
+                "604800": 151815,
+                "31622400": 3715
+            }
+        }
+    },
+    "primevideo": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1421,
+                "43200": 1423,
+                "604800": 1429,
+                "31622400": 1456
+            },
+            "CacheV2LoadTester": {
+                "60": 1432,
+                "43200": 1433,
+                "604800": 67088,
+                "31622400": 1431
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1375,
+                "43200": 1219,
+                "604800": 1219,
+                "31622400": 1219
+            },
+            "CacheV2LoadTester": {
+                "60": 57545,
+                "43200": 1248,
+                "604800": 1246,
+                "31622400": 1265
+            }
+        }
+    },
+    "365scores": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 720,
+                "43200": 715,
+                "604800": 724,
+                "31622400": 923
+            },
+            "CacheV2LoadTester": {
+                "60": 814,
+                "43200": 10239,
+                "604800": 841,
+                "31622400": 906
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 753,
+                "43200": 749,
+                "604800": 711,
+                "31622400": 829
+            },
+            "CacheV2LoadTester": {
+                "60": 759,
+                "43200": 751,
+                "604800": 821,
+                "31622400": 875
+            }
+        }
+    },
+    "hindustantimes": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1551,
+                "43200": 1739,
+                "604800": 1779,
+                "31622400": 1787
+            },
+            "CacheV2LoadTester": {
+                "60": 1567,
+                "43200": 1846,
+                "604800": 1697,
+                "31622400": 1762
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1629,
+                "43200": 1381,
+                "604800": 1380,
+                "31622400": 1695
+            },
+            "CacheV2LoadTester": {
+                "60": 1811,
+                "43200": 1451,
+                "604800": 1575,
+                "31622400": 1743
+            }
+        }
+    },
+    "pinterest": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 38547,
+                "43200": 38543,
+                "604800": 38546,
+                "31622400": 38540
+            },
+            "CacheV2LoadTester": {
+                "60": 38548,
+                "43200": 38545,
+                "604800": 29168,
+                "31622400": 29172
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 38098,
+                "43200": 38080,
+                "604800": 38123,
+                "31622400": 38097
+            },
+            "CacheV2LoadTester": {
+                "60": 38087,
+                "43200": 38097,
+                "604800": 38096,
+                "31622400": 38130
+            }
+        }
+    },
+    "espn": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1764,
+                "43200": 10907,
+                "604800": 1804,
+                "31622400": 2092
+            },
+            "CacheV2LoadTester": {
+                "60": 2043,
+                "43200": 10905,
+                "604800": 1716,
+                "31622400": 11137
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1368,
+                "43200": 1462,
+                "604800": 1410,
+                "31622400": 1654
+            },
+            "CacheV2LoadTester": {
+                "60": 10714,
+                "43200": 10658,
+                "604800": 10594,
+                "31622400": 1679
+            }
+        }
+    },
+    "twitter": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 645,
+                "43200": 653,
+                "604800": 553,
+                "31622400": 562
+            },
+            "CacheV2LoadTester": {
+                "60": 561,
+                "43200": 556,
+                "604800": 640,
+                "31622400": 632
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 492,
+                "43200": 512,
+                "604800": 455,
+                "31622400": 447
+            },
+            "CacheV2LoadTester": {
+                "60": 452,
+                "43200": 9843,
+                "604800": 555,
+                "31622400": 484
+            }
+        }
+    },
+    "merriam-webster": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1185,
+                "43200": 10566,
+                "604800": 1183,
+                "31622400": 1219
+            },
+            "CacheV2LoadTester": {
+                "60": 1217,
+                "43200": 1165,
+                "604800": 1171,
+                "31622400": 10616
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 925,
+                "43200": 10425,
+                "604800": 1131,
+                "31622400": 904
+            },
+            "CacheV2LoadTester": {
+                "60": 10401,
+                "43200": 10487,
+                "604800": 900,
+                "31622400": 10371
+            }
+        }
+    },
+    "namu": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 581,
+                "43200": 584,
+                "604800": 10025,
+                "31622400": 581
+            },
+            "CacheV2LoadTester": {
+                "60": 10037,
+                "43200": 586,
+                "604800": 585,
+                "31622400": 19474
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 510,
+                "43200": 531,
+                "604800": 569,
+                "31622400": 9964
+            },
+            "CacheV2LoadTester": {
+                "60": 555,
+                "43200": 514,
+                "604800": 532,
+                "31622400": 494
+            }
+        }
+    },
+    "pt.wikipedia": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 872,
+                "43200": 945,
+                "604800": 893,
+                "31622400": 12596
+            },
+            "CacheV2LoadTester": {
+                "60": 12631,
+                "43200": 12613,
+                "604800": 12619,
+                "31622400": 12634
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 793,
+                "43200": 884,
+                "604800": 12519,
+                "31622400": 833
+            },
+            "CacheV2LoadTester": {
+                "60": 887,
+                "43200": 12478,
+                "604800": 12604,
+                "31622400": 12504
+            }
+        }
+    },
+    "cricbuzz": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 880,
+                "43200": 869,
+                "604800": 963,
+                "31622400": 1336
+            },
+            "CacheV2LoadTester": {
+                "60": 969,
+                "43200": 974,
+                "604800": 10432,
+                "31622400": 982
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 564,
+                "43200": 568,
+                "604800": 9994,
+                "31622400": 784
+            },
+            "CacheV2LoadTester": {
+                "60": 795,
+                "43200": 687,
+                "604800": 754,
+                "31622400": 1060
+            }
+        }
+    },
+    "samsung": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1795,
+                "43200": 11006,
+                "604800": 11155,
+                "31622400": 11174
+            },
+            "CacheV2LoadTester": {
+                "60": 1805,
+                "43200": 10842,
+                "604800": 1807,
+                "31622400": 1452
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1146,
+                "43200": 1142,
+                "604800": 1138,
+                "31622400": 1149
+            },
+            "CacheV2LoadTester": {
+                "60": 1190,
+                "43200": 1204,
+                "604800": 10504,
+                "31622400": 1221
+            }
+        }
+    },
+    "clevelandclinic": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1199,
+                "43200": 1276,
+                "604800": 10728,
+                "31622400": 10831
+            },
+            "CacheV2LoadTester": {
+                "60": 1557,
+                "43200": 1502,
+                "604800": 1539,
+                "31622400": 1788
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1054,
+                "43200": 1176,
+                "604800": 1102,
+                "31622400": 1277
+            },
+            "CacheV2LoadTester": {
+                "60": 1455,
+                "43200": 1264,
+                "604800": 1239,
+                "31622400": 1548
+            }
+        }
+    },
+    "instagram": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 9840,
+                "43200": 9841,
+                "604800": 9848,
+                "31622400": 19211
+            },
+            "CacheV2LoadTester": {
+                "60": 19233,
+                "43200": 9839,
+                "604800": 19209,
+                "31622400": 9852
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 381,
+                "43200": 361,
+                "604800": 363,
+                "31622400": 19172
+            },
+            "CacheV2LoadTester": {
+                "60": 366,
+                "43200": 367,
+                "604800": 421,
+                "31622400": 365
+            }
+        }
+    },
+    "ar.wikipedia": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 863,
+                "43200": 944,
+                "604800": 968,
+                "31622400": 12800
+            },
+            "CacheV2LoadTester": {
+                "60": 12629,
+                "43200": 945,
+                "604800": 24371,
+                "31622400": 861
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 12680,
+                "43200": 24281,
+                "604800": 24336,
+                "31622400": 794
+            },
+            "CacheV2LoadTester": {
+                "60": 898,
+                "43200": 12541,
+                "604800": 24250,
+                "31622400": 12554
+            }
+        }
+    },
+    "yelp": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 10442,
+                "43200": 1110,
+                "604800": 1103,
+                "31622400": 12495
+            },
+            "CacheV2LoadTester": {
+                "60": 12422,
+                "43200": 12423,
+                "604800": 1075,
+                "31622400": 984
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 12417,
+                "43200": 982,
+                "604800": 919,
+                "31622400": 989
+            },
+            "CacheV2LoadTester": {
+                "60": 891,
+                "43200": 12307,
+                "604800": 903,
+                "31622400": 839
+            }
+        }
+    },
+    "imdb": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 58762,
+                "43200": 2807,
+                "604800": 2703,
+                "31622400": 2720
+            },
+            "CacheV2LoadTester": {
+                "60": 2882,
+                "43200": 2909,
+                "604800": 30991,
+                "31622400": 30809
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 30277,
+                "43200": 2267,
+                "604800": 2245,
+                "31622400": 2258
+            },
+            "CacheV2LoadTester": {
+                "60": 30516,
+                "43200": 2435,
+                "604800": 30465,
+                "31622400": 58636
+            }
+        }
+    },
+    "weather": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 10789,
+                "43200": 20104,
+                "604800": 10753,
+                "31622400": 10779
+            },
+            "CacheV2LoadTester": {
+                "60": 10856,
+                "43200": 10777,
+                "604800": 20102,
+                "31622400": 1519
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 10590,
+                "43200": 10577,
+                "604800": 1332,
+                "31622400": 10619
+            },
+            "CacheV2LoadTester": {
+                "60": 1314,
+                "43200": 1243,
+                "604800": 1310,
+                "31622400": 1279
+            }
+        }
+    },
+    "ja.wikipedia": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 853,
+                "43200": 24345,
+                "604800": 12617,
+                "31622400": 774
+            },
+            "CacheV2LoadTester": {
+                "60": 24297,
+                "43200": 818,
+                "604800": 792,
+                "31622400": 24302
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 734,
+                "43200": 715,
+                "604800": 701,
+                "31622400": 12551
+            },
+            "CacheV2LoadTester": {
+                "60": 716,
+                "43200": 12448,
+                "604800": 12553,
+                "31622400": 778
+            }
+        }
+    },
+    "nhs": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1049,
+                "43200": 1066,
+                "604800": 1065,
+                "31622400": 1069
+            },
+            "CacheV2LoadTester": {
+                "60": 858,
+                "43200": 874,
+                "604800": 885,
+                "31622400": 848
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1103,
+                "43200": 983,
+                "604800": 891,
+                "31622400": 1062
+            },
+            "CacheV2LoadTester": {
+                "60": 687,
+                "43200": 715,
+                "604800": 722,
+                "31622400": 731
+            }
+        }
+    },
+    "canva": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1528,
+                "43200": 1540,
+                "604800": 39108,
+                "31622400": 39227
+            },
+            "CacheV2LoadTester": {
+                "60": 39095,
+                "43200": 39069,
+                "604800": 1610,
+                "31622400": 29947
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1414,
+                "43200": 1317,
+                "604800": 1327,
+                "31622400": 1583
+            },
+            "CacheV2LoadTester": {
+                "60": 38810,
+                "43200": 1346,
+                "604800": 1631,
+                "31622400": 39057
+            }
+        }
+    },
+    "ebay": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1278,
+                "43200": 1289,
+                "604800": 10609,
+                "31622400": 1443
+            },
+            "CacheV2LoadTester": {
+                "60": 1704,
+                "43200": 1305,
+                "604800": 1496,
+                "31622400": 1858
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1374,
+                "43200": 1339,
+                "604800": 1443,
+                "31622400": 1441
+            },
+            "CacheV2LoadTester": {
+                "60": 1575,
+                "43200": 1511,
+                "604800": 1504,
+                "31622400": 57818
+            }
+        }
+    },
+    "nl.wikipedia": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 19552,
+                "43200": 19583,
+                "604800": 10319,
+                "31622400": 812
+            },
+            "CacheV2LoadTester": {
+                "60": 815,
+                "43200": 10312,
+                "604800": 10325,
+                "31622400": 880
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 10092,
+                "43200": 792,
+                "604800": 812,
+                "31622400": 742
+            },
+            "CacheV2LoadTester": {
+                "60": 710,
+                "43200": 805,
+                "604800": 715,
+                "31622400": 800
+            }
+        }
+    },
+    "netflix": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 715,
+                "43200": 714,
+                "604800": 726,
+                "31622400": 717
+            },
+            "CacheV2LoadTester": {
+                "60": 10206,
+                "43200": 725,
+                "604800": 19666,
+                "31622400": 738
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 487,
+                "43200": 500,
+                "604800": 9928,
+                "31622400": 9904
+            },
+            "CacheV2LoadTester": {
+                "60": 9947,
+                "43200": 512,
+                "604800": 19367,
+                "31622400": 9962
+            }
+        }
+    },
+    "flipkart": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1457,
+                "43200": 1437,
+                "604800": 1438,
+                "31622400": 1429
+            },
+            "CacheV2LoadTester": {
+                "60": 1464,
+                "43200": 1504,
+                "604800": 1483,
+                "31622400": 1479
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1250,
+                "43200": 1300,
+                "604800": 1273,
+                "31622400": 1278
+            },
+            "CacheV2LoadTester": {
+                "60": 1302,
+                "43200": 1277,
+                "604800": 1217,
+                "31622400": 1277
+            }
+        }
+    },
+    "tr.wikipedia": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 820,
+                "43200": 837,
+                "604800": 836,
+                "31622400": 10195
+            },
+            "CacheV2LoadTester": {
+                "60": 10254,
+                "43200": 876,
+                "604800": 809,
+                "31622400": 10202
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 10098,
+                "43200": 663,
+                "604800": 10073,
+                "31622400": 712
+            },
+            "CacheV2LoadTester": {
+                "60": 704,
+                "43200": 693,
+                "604800": 10079,
+                "31622400": 10121
+            }
+        }
+    },
+    "globo": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1888,
+                "43200": 1848,
+                "604800": 1866,
+                "31622400": 30086
+            },
+            "CacheV2LoadTester": {
+                "60": 1922,
+                "43200": 77185,
+                "604800": 1878,
+                "31622400": 1991
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1755,
+                "43200": 1687,
+                "604800": 1719,
+                "31622400": 1818
+            },
+            "CacheV2LoadTester": {
+                "60": 1756,
+                "43200": 1788,
+                "604800": 86504,
+                "31622400": 1786
+            }
+        }
+    },
+    "hurriyet.com": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1606,
+                "43200": 11078,
+                "604800": 1627,
+                "31622400": 1642
+            },
+            "CacheV2LoadTester": {
+                "60": 1603,
+                "43200": 1640,
+                "604800": 11103,
+                "31622400": 1604
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1511,
+                "43200": 1466,
+                "604800": 1524,
+                "31622400": 11121
+            },
+            "CacheV2LoadTester": {
+                "60": 10873,
+                "43200": 10876,
+                "604800": 1472,
+                "31622400": 1464
+            }
+        }
+    },
+    "zh.wikipedia": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 894,
+                "43200": 12781,
+                "604800": 916,
+                "31622400": 24606
+            },
+            "CacheV2LoadTester": {
+                "60": 12815,
+                "43200": 970,
+                "604800": 917,
+                "31622400": 891
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 765,
+                "43200": 819,
+                "604800": 773,
+                "31622400": 749
+            },
+            "CacheV2LoadTester": {
+                "60": 779,
+                "43200": 773,
+                "604800": 12640,
+                "31622400": 776
+            }
+        }
+    },
+    "ru.wikipedia": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 770,
+                "43200": 755,
+                "604800": 19595,
+                "31622400": 772
+            },
+            "CacheV2LoadTester": {
+                "60": 10181,
+                "43200": 10209,
+                "604800": 744,
+                "31622400": 10164
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 19484,
+                "43200": 723,
+                "604800": 10101,
+                "31622400": 10119
+            },
+            "CacheV2LoadTester": {
+                "60": 706,
+                "43200": 736,
+                "604800": 742,
+                "31622400": 711
+            }
+        }
+    },
+    "mayoclinic": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1763,
+                "43200": 1774,
+                "604800": 11161,
+                "31622400": 1745
+            },
+            "CacheV2LoadTester": {
+                "60": 1777,
+                "43200": 1811,
+                "604800": 1777,
+                "31622400": 1805
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1372,
+                "43200": 1356,
+                "604800": 1319,
+                "31622400": 1370
+            },
+            "CacheV2LoadTester": {
+                "60": 1438,
+                "43200": 1441,
+                "604800": 1477,
+                "31622400": 1421
+            }
+        }
+    },
+    "walmart": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2834,
+                "43200": 2741,
+                "604800": 2770,
+                "31622400": 2786
+            },
+            "CacheV2LoadTester": {
+                "60": 2776,
+                "43200": 2756,
+                "604800": 2821,
+                "31622400": 2802
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2527,
+                "43200": 2535,
+                "604800": 2534,
+                "31622400": 2563
+            },
+            "CacheV2LoadTester": {
+                "60": 2489,
+                "43200": 2538,
+                "604800": 2564,
+                "31622400": 2441
+            }
+        }
+    },
+    "fr.wikipedia": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 820,
+                "43200": 809,
+                "604800": 822,
+                "31622400": 843
+            },
+            "CacheV2LoadTester": {
+                "60": 19851,
+                "43200": 19836,
+                "604800": 10399,
+                "31622400": 846
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 725,
+                "43200": 738,
+                "604800": 10298,
+                "31622400": 10365
+            },
+            "CacheV2LoadTester": {
+                "60": 10326,
+                "43200": 753,
+                "604800": 757,
+                "31622400": 10311
+            }
+        }
+    },
+    "steampowered": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2231,
+                "43200": 2235,
+                "604800": 2167,
+                "31622400": 11606
+            },
+            "CacheV2LoadTester": {
+                "60": 2304,
+                "43200": 11561,
+                "604800": 39774,
+                "31622400": 2333
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 20185,
+                "43200": 20136,
+                "604800": 1422,
+                "31622400": 1458
+            },
+            "CacheV2LoadTester": {
+                "60": 1443,
+                "43200": 1459,
+                "604800": 1695,
+                "31622400": 1442
+            }
+        }
+    },
+    "it.wikipedia": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 12642,
+                "43200": 19675,
+                "604800": 829,
+                "31622400": 905
+            },
+            "CacheV2LoadTester": {
+                "60": 10368,
+                "43200": 897,
+                "604800": 10246,
+                "31622400": 19769
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 10183,
+                "43200": 12649,
+                "604800": 752,
+                "31622400": 770
+            },
+            "CacheV2LoadTester": {
+                "60": 10197,
+                "43200": 727,
+                "604800": 10156,
+                "31622400": 19662
+            }
+        }
+    },
+    "bbc": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1391,
+                "43200": 20283,
+                "604800": 1519,
+                "31622400": 11136
+            },
+            "CacheV2LoadTester": {
+                "60": 1451,
+                "43200": 1443,
+                "604800": 150804,
+                "31622400": 178893
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1250,
+                "43200": 1244,
+                "604800": 19960,
+                "31622400": 1550
+            },
+            "CacheV2LoadTester": {
+                "60": 1280,
+                "43200": 1278,
+                "604800": 1435,
+                "31622400": 1441
+            }
+        }
+    },
+    "cookpad": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1445,
+                "43200": 1620,
+                "604800": 1492,
+                "31622400": 1811
+            },
+            "CacheV2LoadTester": {
+                "60": 1648,
+                "43200": 1650,
+                "604800": 2060,
+                "31622400": 2170
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1287,
+                "43200": 1506,
+                "604800": 10879,
+                "31622400": 20284
+            },
+            "CacheV2LoadTester": {
+                "60": 1788,
+                "43200": 1629,
+                "604800": 1735,
+                "31622400": 2132
+            }
+        }
+    },
+    "detik": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2256,
+                "43200": 20881,
+                "604800": 2352,
+                "31622400": 2531
+            },
+            "CacheV2LoadTester": {
+                "60": 21032,
+                "43200": 2469,
+                "604800": 21294,
+                "31622400": 2548
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 20711,
+                "43200": 2035,
+                "604800": 2045,
+                "31622400": 21030
+            },
+            "CacheV2LoadTester": {
+                "60": 20801,
+                "43200": 2154,
+                "604800": 20883,
+                "31622400": 39686
+            }
+        }
+    },
+    "quora": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 444,
+                "43200": 444,
+                "604800": 19189,
+                "31622400": 19187
+            },
+            "CacheV2LoadTester": {
+                "60": 19190,
+                "43200": 9820,
+                "604800": 19188,
+                "31622400": 9806
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 403,
+                "43200": 382,
+                "604800": 376,
+                "31622400": 9752
+            },
+            "CacheV2LoadTester": {
+                "60": 383,
+                "43200": 360,
+                "604800": 375,
+                "31622400": 9765
+            }
+        }
+    },
+    "play.google": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 10641,
+                "43200": 1392,
+                "604800": 1393,
+                "31622400": 1401
+            },
+            "CacheV2LoadTester": {
+                "60": 1418,
+                "43200": 1406,
+                "604800": 1399,
+                "31622400": 1408
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1270,
+                "43200": 150643,
+                "604800": 1270,
+                "31622400": 1269
+            },
+            "CacheV2LoadTester": {
+                "60": 1350,
+                "43200": 1346,
+                "604800": 1375,
+                "31622400": 1341
+            }
+        }
+    },
+    "translate.google": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1000,
+                "43200": 990,
+                "604800": 1002,
+                "31622400": 988
+            },
+            "CacheV2LoadTester": {
+                "60": 1031,
+                "43200": 1028,
+                "604800": 1026,
+                "31622400": 1001
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 889,
+                "43200": 874,
+                "604800": 891,
+                "31622400": 876
+            },
+            "CacheV2LoadTester": {
+                "60": 948,
+                "43200": 945,
+                "604800": 956,
+                "31622400": 936
+            }
+        }
+    },
+    "chatgpt": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 9998,
+                "43200": 476,
+                "604800": 9994,
+                "31622400": 639
+            },
+            "CacheV2LoadTester": {
+                "60": 702,
+                "43200": 10071,
+                "604800": 596,
+                "31622400": 1026
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 491,
+                "43200": 9967,
+                "604800": 9844,
+                "31622400": 19359
+            },
+            "CacheV2LoadTester": {
+                "60": 9853,
+                "43200": 479,
+                "604800": 374,
+                "31622400": 10217
+            }
+        }
+    },
+    "nike": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2290,
+                "43200": 2169,
+                "604800": 2285,
+                "31622400": 2237
+            },
+            "CacheV2LoadTester": {
+                "60": 2227,
+                "43200": 2192,
+                "604800": 2137,
+                "31622400": 2117
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2037,
+                "43200": 2030,
+                "604800": 2039,
+                "31622400": 2044
+            },
+            "CacheV2LoadTester": {
+                "60": 1978,
+                "43200": 1926,
+                "604800": 1891,
+                "31622400": 1943
+            }
+        }
+    },
+    "tiktok": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 30175,
+                "43200": 39565,
+                "604800": 39497,
+                "31622400": 30145
+            },
+            "CacheV2LoadTester": {
+                "60": 39499,
+                "43200": 39495,
+                "604800": 30114,
+                "31622400": 39496
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 39314,
+                "43200": 39392,
+                "604800": 39279,
+                "31622400": 39415
+            },
+            "CacheV2LoadTester": {
+                "60": 39332,
+                "43200": 30029,
+                "604800": 39328,
+                "31622400": 30089
+            }
+        }
+    },
+    "ilovepdf": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 792,
+                "43200": 791,
+                "604800": 786,
+                "31622400": 788
+            },
+            "CacheV2LoadTester": {
+                "60": 141413,
+                "43200": 781,
+                "604800": 785,
+                "31622400": 786
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 484,
+                "43200": 481,
+                "604800": 494,
+                "31622400": 477
+            },
+            "CacheV2LoadTester": {
+                "60": 505,
+                "43200": 495,
+                "604800": 493,
+                "31622400": 131756
+            }
+        }
+    },
+    "medlineplus": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1098,
+                "43200": 1109,
+                "604800": 1099,
+                "31622400": 1102
+            },
+            "CacheV2LoadTester": {
+                "60": 1098,
+                "43200": 1149,
+                "604800": 1112,
+                "31622400": 1100
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 19461,
+                "43200": 690,
+                "604800": 744,
+                "31622400": 686
+            },
+            "CacheV2LoadTester": {
+                "60": 699,
+                "43200": 19457,
+                "604800": 10081,
+                "31622400": 695
+            }
+        }
+    },
+    "skysports": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 797,
+                "43200": 746,
+                "604800": 779,
+                "31622400": 757
+            },
+            "CacheV2LoadTester": {
+                "60": 760,
+                "43200": 771,
+                "604800": 750,
+                "31622400": 797
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 614,
+                "43200": 601,
+                "604800": 610,
+                "31622400": 611
+            },
+            "CacheV2LoadTester": {
+                "60": 614,
+                "43200": 604,
+                "604800": 610,
+                "31622400": 611
+            }
+        }
+    },
+    "nih": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1030,
+                "43200": 19783,
+                "604800": 1047,
+                "31622400": 1023
+            },
+            "CacheV2LoadTester": {
+                "60": 1040,
+                "43200": 19897,
+                "604800": 1012,
+                "31622400": 1028
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 792,
+                "43200": 19501,
+                "604800": 792,
+                "31622400": 799
+            },
+            "CacheV2LoadTester": {
+                "60": 813,
+                "43200": 799,
+                "604800": 19538,
+                "31622400": 788
+            }
+        }
+    },
+    "de.wikipedia": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 781,
+                "43200": 793,
+                "604800": 12646,
+                "31622400": 12730
+            },
+            "CacheV2LoadTester": {
+                "60": 12532,
+                "43200": 772,
+                "604800": 12566,
+                "31622400": 12684
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 742,
+                "43200": 24232,
+                "604800": 12525,
+                "31622400": 47870
+            },
+            "CacheV2LoadTester": {
+                "60": 24161,
+                "43200": 24166,
+                "604800": 12481,
+                "31622400": 24338
+            }
+        }
+    },
+    "fandom": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2349,
+                "43200": 21066,
+                "604800": 2479,
+                "31622400": 2645
+            },
+            "CacheV2LoadTester": {
+                "60": 2341,
+                "43200": 2419,
+                "604800": 2593,
+                "31622400": 2572
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1963,
+                "43200": 1864,
+                "604800": 2084,
+                "31622400": 2169
+            },
+            "CacheV2LoadTester": {
+                "60": 1870,
+                "43200": 1890,
+                "604800": 2129,
+                "31622400": 2330
+            }
+        }
+    },
+    "bbc.co": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2609,
+                "43200": 2568,
+                "604800": 2590,
+                "31622400": 30710
+            },
+            "CacheV2LoadTester": {
+                "60": 11929,
+                "43200": 2719,
+                "604800": 2712,
+                "31622400": 21420
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2014,
+                "43200": 2032,
+                "604800": 151037,
+                "31622400": 20971
+            },
+            "CacheV2LoadTester": {
+                "60": 2051,
+                "43200": 20856,
+                "604800": 160425,
+                "31622400": 2506
+            }
+        }
+    },
+    "nytimes": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2791,
+                "43200": 2846,
+                "604800": 2746,
+                "31622400": 2749
+            },
+            "CacheV2LoadTester": {
+                "60": 2945,
+                "43200": 2897,
+                "604800": 12305,
+                "31622400": 2851
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 12277,
+                "43200": 2631,
+                "604800": 2601,
+                "31622400": 2599
+            },
+            "CacheV2LoadTester": {
+                "60": 2611,
+                "43200": 12033,
+                "604800": 12190,
+                "31622400": 12151
+            }
+        }
+    },
+    "apple": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 123254,
+                "43200": 1406,
+                "604800": 123281,
+                "31622400": 1397
+            },
+            "CacheV2LoadTester": {
+                "60": 1451,
+                "43200": 1413,
+                "604800": 1761,
+                "31622400": 2018
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1230,
+                "43200": 1301,
+                "604800": 123243,
+                "31622400": 1474
+            },
+            "CacheV2LoadTester": {
+                "60": 1665,
+                "43200": 1799,
+                "604800": 1591,
+                "31622400": 123623
+            }
+        }
+    },
+    "linkedin": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 9868,
+                "43200": 442,
+                "604800": 9882,
+                "31622400": 9858
+            },
+            "CacheV2LoadTester": {
+                "60": 462,
+                "43200": 452,
+                "604800": 457,
+                "31622400": 9879
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 344,
+                "43200": 9796,
+                "604800": 349,
+                "31622400": 9757
+            },
+            "CacheV2LoadTester": {
+                "60": 9793,
+                "43200": 371,
+                "604800": 361,
+                "31622400": 364
+            }
+        }
+    },
+    "youtube": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 3911,
+                "43200": 3912,
+                "604800": 3894,
+                "31622400": 3899
+            },
+            "CacheV2LoadTester": {
+                "60": 3883,
+                "43200": 12460,
+                "604800": 3862,
+                "31622400": 12457
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 12181,
+                "43200": 3683,
+                "604800": 3728,
+                "31622400": 12183
+            },
+            "CacheV2LoadTester": {
+                "60": 3699,
+                "43200": 3687,
+                "604800": 3708,
+                "31622400": 3724
+            }
+        }
+    },
+    "wise": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1086,
+                "43200": 1108,
+                "604800": 1047,
+                "31622400": 1099
+            },
+            "CacheV2LoadTester": {
+                "60": 1111,
+                "43200": 1120,
+                "604800": 1108,
+                "31622400": 1127
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 968,
+                "43200": 1062,
+                "604800": 1004,
+                "31622400": 12663
+            },
+            "CacheV2LoadTester": {
+                "60": 1005,
+                "43200": 980,
+                "604800": 12828,
+                "31622400": 977
+            }
+        }
+    },
+    "webmd": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2287,
+                "43200": 86740,
+                "604800": 2612,
+                "31622400": 86821
+            },
+            "CacheV2LoadTester": {
+                "60": 2392,
+                "43200": 86801,
+                "604800": 2321,
+                "31622400": 2318
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2036,
+                "43200": 2009,
+                "604800": 11424,
+                "31622400": 2058
+            },
+            "CacheV2LoadTester": {
+                "60": 2078,
+                "43200": 2056,
+                "604800": 2136,
+                "31622400": 2087
+            }
+        }
+    },
+    "indiatimes": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 1082,
+                "43200": 1040,
+                "604800": 19990,
+                "31622400": 19987
+            },
+            "CacheV2LoadTester": {
+                "60": 10459,
+                "43200": 10641,
+                "604800": 19963,
+                "31622400": 10546
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 968,
+                "43200": 10391,
+                "604800": 885,
+                "31622400": 948
+            },
+            "CacheV2LoadTester": {
+                "60": 928,
+                "43200": 10368,
+                "604800": 1111,
+                "31622400": 935
+            }
+        }
+    },
+    "id.wikipedia": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 955,
+                "43200": 903,
+                "604800": 910,
+                "31622400": 896
+            },
+            "CacheV2LoadTester": {
+                "60": 890,
+                "43200": 991,
+                "604800": 12651,
+                "31622400": 12644
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 24217,
+                "43200": 24356,
+                "604800": 801,
+                "31622400": 12506
+            },
+            "CacheV2LoadTester": {
+                "60": 12535,
+                "43200": 12559,
+                "604800": 903,
+                "31622400": 24377
+            }
+        }
+    },
+    "yahoo.co": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 925,
+                "43200": 957,
+                "604800": 914,
+                "31622400": 901
+            },
+            "CacheV2LoadTester": {
+                "60": 912,
+                "43200": 905,
+                "604800": 976,
+                "31622400": 968
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 742,
+                "43200": 741,
+                "604800": 751,
+                "31622400": 746
+            },
+            "CacheV2LoadTester": {
+                "60": 750,
+                "43200": 774,
+                "604800": 745,
+                "31622400": 761
+            }
+        }
+    },
+    "roblox": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 41127,
+                "43200": 22356,
+                "604800": 22372,
+                "31622400": 41120
+            },
+            "CacheV2LoadTester": {
+                "60": 31710,
+                "43200": 12979,
+                "604800": 22393,
+                "31622400": 41079
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 21431,
+                "43200": 21345,
+                "604800": 21418,
+                "31622400": 96291
+            },
+            "CacheV2LoadTester": {
+                "60": 40064,
+                "43200": 40069,
+                "604800": 2996,
+                "31622400": 21385
+            }
+        }
+    },
+    "github": {
+        "(latency: 100, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2984,
+                "43200": 2960,
+                "604800": 2975,
+                "31622400": 2970
+            },
+            "CacheV2LoadTester": {
+                "60": 3076,
+                "43200": 3088,
+                "604800": 3080,
+                "31622400": 3113
+            }
+        },
+        "(latency: 40, download: 5MBps, upload: 5MBps)": {
+            "ClassicLoadTester": {
+                "60": 2226,
+                "43200": 86522,
+                "604800": 2328,
+                "31622400": 2216
+            },
+            "CacheV2LoadTester": {
+                "60": 86637,
+                "43200": 2359,
+                "604800": 2334,
+                "31622400": 2392
+            }
+        }
+    }
+}
