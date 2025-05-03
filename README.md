@@ -123,4 +123,17 @@ pip install matplotlib
 3. Find the generated `plot_*.png` files in your working directory.
 
 
--
+
+### Hardware Specs
+
+Cloudlab specs:
+
+- CPU: AMD EPYC 7302P 16-Core Processor
+- RAM: 128 GB
+- OS: Ubuntru 22.04
+
+Local Ubuntu specs:
+
+- CPU: AMD Ryzen 9 3950X 16-Core Processor
+- RAM: 32 GB
+- OS: Ubutnu 24.04
