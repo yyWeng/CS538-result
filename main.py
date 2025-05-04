@@ -102,8 +102,8 @@ def load_common_sites_from_json(old_file: str, new_file: str):
 
     return intersect(datapoints, new_datapoints)
 
-def main():
-    same_sites = load_common_sites_from_json('aggregated-cloudlab-old.json', 'aggregated-cloudlab-new.json')
+def compare_sites(baseline_file: str, improve_file: str, baseline_label='baseline', improve_label='improve'):
+    same_sites = load_common_sites_from_json(baseline_file, improve_file)
     old_improves, new_improves = [], []
     for site, data in same_sites.items():
         print(f"Site: {site}")
@@ -129,10 +129,12 @@ def main():
     o = np.mean(np.stack(old_improves), axis=0)
     n = np.mean(np.stack(new_improves), axis=0)
     percent_plot({
-        'baseline': o,
-        'improve': n
+        baseline_label: o,
+        improve_label: n
     }, "Average of all sites")
 
 
 if __name__ == "__main__":
-    main()
+    compare_sites('aggregated-cloudlab-old.json', 'aggregated-cloudlab-new.json')
+    compare_sites('aggregated-ubuntu-old.json', 'aggregated-cloudlab-new.json')
+    compare_sites('aggregated-ubuntu-old.json', 'aggregated-cloudlab-old.json', baseline_label='local', improve_label='cloud-lab')
