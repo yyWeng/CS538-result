@@ -1,3 +1,4 @@
+from collections import defaultdict
 import numpy as np
 import matplotlib.pyplot as plt
 import json
@@ -54,7 +55,7 @@ def linear_plot(data: dict, site: str):
     plt.legend()
     plt.show()
 
-def percent_plot(data: dict, title: str):
+def percent_plot(data: dict, title: str, baseline_label='baseline', improve_label='improve'):
     """
     Plot the data points as percentages.
     """
@@ -65,9 +66,9 @@ def percent_plot(data: dict, title: str):
     fig, ax = plt.subplots(layout='constrained')
     fig.set_figwidth(10)
 
-    baseline = ax.bar(x - offset, data['baseline'], width, label='baseline')
+    baseline = ax.bar(x - offset, data[baseline_label], width, label=baseline_label)
     ax.bar_label(baseline, padding=3)
-    improve = ax.bar(x + offset, data['improve'], width, label='improve')
+    improve = ax.bar(x + offset, data[improve_label], width, label=improve_label)
     ax.bar_label(improve, padding=3)
 
     ax.set_title(f"{title} (in %)")
@@ -131,10 +132,47 @@ def compare_sites(baseline_file: str, improve_file: str, baseline_label='baselin
     percent_plot({
         baseline_label: o,
         improve_label: n
-    }, "Average of all sites")
+    }, "Average of all sites", baseline_label=baseline_label, improve_label=improve_label)
+
+def plot_site(file: str):
+    with open(file, 'r') as f:
+        datapoints = json.load(f)
+        latencies = defaultdict(list)
+        for site, data in datapoints.items():
+            # print(f"Site: {site}")
+            for key, value in data.items():
+                # print(f"Key: {key}")
+                baseline = datapoint_to_array(value['ClassicLoadTester'])
+                improve = datapoint_to_array(value['CacheV2LoadTester'])
+                diff = (baseline - improve) / baseline * 100
+                latencies[key].append(diff)
+        
+        plt.figure(figsize=(10, 8))
+        for key, value in latencies.items():
+            # Plot the mean of all sites
+            marker = 'o' if '60Mbps' in key else 'x'
+            marker = ',' if '1Mbps' in key else marker
+            color = 'blue' if '200' in key else 'orange'
+            color = 'green' if '100' in key else color
+            plt.plot(np.mean(np.stack(value), axis=0), label=key, marker=marker, color=color)
+        plt.title(f"(cloudlab) Average page load time enhanced vs boarderline")
+        # plt.xticks(range(6), ['1 min', '1hr', '6hrs', '1 day', '1 week', '366 days'])
+        plt.xticks(range(len(TIMESTAMPS)), ['1 min', '12 hr', '1 week', '1 year'])
+        plt.xlabel("Time")
+        plt.ylabel("Improvement (%)")
+        plt.legend()
+        plt.show()
+       
 
 
 if __name__ == "__main__":
-    compare_sites('aggregated-cloudlab-old.json', 'aggregated-cloudlab-new.json')
-    compare_sites('aggregated-ubuntu-old.json', 'aggregated-cloudlab-new.json')
-    compare_sites('aggregated-ubuntu-old.json', 'aggregated-cloudlab-old.json', baseline_label='local', improve_label='cloud-lab')
+    # compare_sites('aggregated-cloudlab-old.json', 'aggregated-cloudlab-new.json')
+    # compare_sites('aggregated-ubuntu-old.json', 'aggregated-ubuntu-old-initial-attempt.json', baseline_label='recent', improve_label='initial')
+    # compare_sites('aggregated-ubuntu-old.json', 'aggregated-cloudlab-old.json', baseline_label='local', improve_label='cloud-lab')
+    # plot_site('aggregated-ubuntu-old.json')
+    # plot_site('aggregated-ubuntu-old-initial-attempt.json')
+    plot_site('aggregated-cloudlab-new.json')
+    # compare_sites('aggregated-cloudlab-old.json', 'aggregated-cloudlab-new.json', baseline_label='original', improve_label='enhanced')
+    # with open('aggregated-ubuntu-old-initial-attempt.json', 'r') as f:
+    #     data =  json.load(f)
+    #     print(len(data.keys()))
